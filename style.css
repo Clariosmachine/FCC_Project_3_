@@ -1,3 +1,38 @@
 :root {
-    color: red;
+    color: #363636;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: antiquewhite;
+
+}
+
+#logo {
+    width: 50%;
+    display: flex;
+}
+
+
+#logotipo {
+    max-height: 100px;
+}
+
+#links--list {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.link-box {
+   margin:auto 0;
+}
+
+a {
+    padding: 15px;
+    color: #363636;
+    text-decoration: none;
 }
