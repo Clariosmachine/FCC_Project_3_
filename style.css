@@ -1,6 +1,10 @@
-:root {
+body {
     color: #363636;
     box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -46,7 +50,43 @@ a {
     padding: 15px;
     color: #363636;
     text-decoration: none;
-    border: solid 5px black;
+    /*border: solid 5px black;*/
     display: inline;
     text-align: center;
+}
+
+.subtitle {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.formulario {
+    display: block;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+}
+
+
+#campo--email {
+    display: block;
+    margin: auto;
+    padding: 0.2em;
+    width: 35%;
+    min-width: 10rem;
+    font-size: 1.1em;
+    font-style: oblique;
+    color: grey;
+}
+
+.btn {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: darkolivegreen;
+    color: antiquewhite;
+    border-radius: 2px;
+    border: 0;
+    font-size: 1.1em;
+    font-weight: bolder;
+    cursor: pointer;
 }
