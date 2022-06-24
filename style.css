@@ -6,7 +6,8 @@
 header {
     display: flex;
     background-color: antiquewhite;
-
+    flex-wrap: nowrap;
+    height: fit-content;
 }
 
 #logo {
@@ -16,23 +17,36 @@ header {
 
 
 #logotipo {
-    max-height: 100px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav-links {
+    width: 50%;
+    margin: auto;    
 }
 
 #links--list {
-    width: 50%;
+    margin: auto 0;
+    padding: 0;
+    width: 100%;
     display: flex;
     list-style: none;
-    flex-direction: row-reverse;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .link-box {
    margin:auto 0;
+   display: flex;
 }
 
 a {
     padding: 15px;
     color: #363636;
     text-decoration: none;
+    border: solid 5px black;
+    display: inline;
+    text-align: center;
 }
