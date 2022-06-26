@@ -80,7 +80,7 @@ a {
 }
 
 .btn {
-    margin: 20px auto;
+    margin: 20px auto 0;
     padding: 10px 20px;
     background-color: darkolivegreen;
     color: antiquewhite;
@@ -93,7 +93,7 @@ a {
 
 .conteiner {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     align-content: center;
 }
 
@@ -124,4 +124,48 @@ i {
     display: block;
     text-align: center;
     width: 100%;
+}
+
+.pricing {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pacote {
+    border: solid 1px rgb(30, 30, 30);
+    border-radius: 5pt;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+.produto {
+    background-color: darkgrey;
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.2em;
+}
+
+.preco {
+    display: block;
+    margin: .5em 0 0;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.conteudo {
+    margin: 0;
+    padding: 0 1em;
+}
+
+.item--pacote {
+    margin: 5px;
+    list-style: none;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: lighter;
 }
