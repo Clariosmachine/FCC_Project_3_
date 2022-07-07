@@ -126,6 +126,11 @@ i {
     width: 100%;
 }
 
+iframe {
+    height: 400px; 
+    width: 80%;
+}
+
 .pricing {
     margin-top: 110px;
     display: flex;
@@ -168,4 +173,30 @@ i {
     text-align: center;
     font-size: 0.8em;
     font-weight: lighter;
+}
+
+@media (max-width: 865px) {
+    #links--list {
+        flex-direction: column;
+    }
+
+    .link-box {
+        margin: 0 auto;
+        text-align: center;
+        height: fit-content;
+    }
+
+    .link-box > a {
+        padding: 7px;
+    }
+
+    .pacote {
+        font-size: 12pt;
+    }
+
+    #logotipo {
+        height: 120px;
+        object-fit: fill;
+    }
+    
 }
